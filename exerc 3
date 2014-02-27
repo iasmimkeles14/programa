@@ -1,23 +1,22 @@
 public class Exercicio3 {
 
 
-/*
-Criar um programa que le um inteiro n menor que 20 e imprime o n-ésimo número
-na sequência de fibonacci.
-a.Fn =Fn-1 + Fn-2
-b. 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144,233, 377, ….
-*/
+//Exercicio n 3
+
 public static void main(String[] args){
-int x = 1, fb = 0;
+//variaveis
+int x = 1, n = 0;
 
-
+//inicio do "do while"
+//para criar a sequencia de fibonacci
 do{
-x = x + fb;
-fb = x - fb;
+x = x + n;
+n = x - n;
 
-System.out.println(fb);
+//Imprime 
+System.out.println(n);
 
-}while(x < 20);
+}while(x < 20); //fim do do..while
 
 
         
