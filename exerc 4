@@ -1,0 +1,30 @@
+import java.util.Scanner;	
+
+public class Exercicio4 {
+/*
+
+Seja a seguinte série:
+1, 4, 9, 16, 25, 36, 49, 64…
+Escreva um programa em java que :
+1. Leia um valor N do usuário
+2. Gere esta série até o N-ésimo termo.
+*/
+
+
+public static void main(String[] args){
+Scanner sc = new Scanner(System.in);
+
+int num1, x=0;
+        
+        System.out.println("Coloque um Número: ");
+        num1 = sc.nextInt();
+          
+        for (int cont = 1; cont < num1 ; cont++){
+        
+                x = cont * cont;
+                System.out.println(x);
+            }
+            
+        
+}
+}
