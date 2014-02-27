@@ -1,6 +1,26 @@
-*.class
+public class Exercicio3 {
 
-# Package Files #
-*.jar
-*.war
-*.ear
+
+/*
+Criar um programa que le um inteiro n menor que 20 e imprime o n-ésimo número
+na sequência de fibonacci.
+a.Fn =Fn-1 + Fn-2
+b. 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144,233, 377, ….
+*/
+public static void main(String[] args){
+int x = 1, fb = 0;
+
+
+do{
+x = x + fb;
+fb = x - fb;
+
+System.out.println(fb);
+
+}while(x < 20);
+
+
+        
+    
+  }
+}
